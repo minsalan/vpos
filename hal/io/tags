@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DELAY	led.c	5;"	d	file:
+OBJS	Makefile	/^OBJS = serial.o timer.o led.o $/;"	m
+SRCS	Makefile	/^SRCS = serial.c timer.c led.c$/;"	m
+getc	serial.c	/^char getc(void)$/;"	f
+putc	serial.c	/^void putc(char c)$/;"	f
+tstc	serial.c	/^int tstc()$/;"	f
+vh_LedInit	led.c	/^void vh_LedInit(void)$/;"	f
+vh_LedOff	led.c	/^void vh_LedOff(unsigned char data)$/;"	f
+vh_LedOn	led.c	/^void vh_LedOn(unsigned char data)$/;"	f
+vh_LedSet	led.c	/^void vh_LedSet(unsigned char data)$/;"	f
+vh_serial_init	serial.c	/^void vh_serial_init(void)$/;"	f
+vh_serial_interrupt_handler	serial.c	/^void vh_serial_interrupt_handler(void)$/;"	f
+vh_serial_irq_enable	serial.c	/^void vh_serial_irq_enable(void)$/;"	f
+vh_timer_init	timer.c	/^void vh_timer_init(void)$/;"	f
+vh_timer_interrupt_handler	timer.c	/^void vh_timer_interrupt_handler(void)$/;"	f
+vh_timer_irq_enable	timer.c	/^void vh_timer_irq_enable(int timer)$/;"	f
+vk_serial_push	serial.c	/^void vk_serial_push(void)$/;"	f
+vk_timer_irq_disable	timer.c	/^void vk_timer_irq_disable(void)$/;"	f
+vk_timer_irq_enable	timer.c	/^void vk_timer_irq_enable(void)$/;"	f
